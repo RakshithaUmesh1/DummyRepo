@@ -2,10 +2,12 @@
 
 git add .
 
-
-commit_message="new file added"
+commit_message="new commit"
 
 git commit -m "$commit_message"
 
+git config --global credential.helper store
 
 git push
+
+
